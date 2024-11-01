@@ -1,32 +1,65 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Ignore object files, binaries, and compiled libraries
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+*.dylib
 *.a
 *.lib
-
-# Executables
 *.exe
-*.out
-*.app
+
+# Ignore directories typically created by build tools
+/build/
+/bin/
+/out/
+/dist/
+
+# Ignore CMake files and other generated project files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Ignore editor or IDE-specific files
+*.vscode/
+*.code-workspace
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.VC.db
+*.DS_Store
+
+# Ignore logs and other temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore dependency files
+*.d
+
+# Ignore generated documentation
+/docs/
+
+# Ignore coverage reports
+coverage/
+*.gcno
+*.gcda
+*.gcov
+
+# Visual Studio specific files
+*.vsidx
+*.vc
+*.ipch
+*.tlog
+*.pdb
+*.recipe
+*.ilk
+*.idb
+*.filters
+*.VC.opendb
+*.VC.db
+v17/
+browse.vc.db
